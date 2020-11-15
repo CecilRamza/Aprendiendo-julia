@@ -8,8 +8,9 @@ La ecuación diferencial que se usa como ejemplo es:
 
 con:
 
-![equation]://latex.codecogs.com/gif.latex?0%3Cx%3C%5Cfrac%7B%5Cpi%7D%7B2%7D%2Cu%280%29%3D1%2Cu%5Cleft%28%5Cfrac%7B%5Cpi%7D%7B2%7D%5Cright%29%3D-1
+![equation]https://latex.codecogs.com/gif.latex?0%3Cx%3C%5Cfrac%7B%5Cpi%7D%7B2%7D%2Cu%280%29%3D1%2Cu%5Cleft%28%5Cfrac%7B%5Cpi%7D%7B2%7D%5Cright%29%3D-1
 
+<img src="https://latex.codecogs.com/gif.latex?0<x<\frac{\pi}{2},u(0)=1,u\left(\frac{\pi}{2}\right)=-1" title="0<x<\frac{\pi}{2},u(0)=1,u\left(\frac{\pi}{2}\right)=-1" />
 
 En Funciones.py se encuentra lo siguiente:
 

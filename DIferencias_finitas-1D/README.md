@@ -13,8 +13,12 @@ con:
 En Funciones.py se encuentra lo siguiente:
 
 coef1     obtiene k, para este caso k=1
+
 coef2     en este caso es el seno de x
+
 analitica es la solución analítica
+
 mat_trid  crea la matriz tridiagonal para el método de Thomas
+
 thomas    resuelve el sistema de ecuaciones por el método de eliminación gaussiana
 

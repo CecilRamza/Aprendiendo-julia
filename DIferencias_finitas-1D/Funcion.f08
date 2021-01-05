@@ -47,6 +47,7 @@ allocate(thomas(n))
 
 do i=1,n-1
  piv=-A(i+1,1)/A(i,2)
+! write(*,*)A(i+1,1),A(i,2)
  A(i+1,2)=piv*A(i,3)+A(i+1,2)
  B(i+1)=piv*B(i)+B(i+1)
 enddo

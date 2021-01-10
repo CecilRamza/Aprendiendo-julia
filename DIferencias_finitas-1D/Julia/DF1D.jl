@@ -46,4 +46,4 @@ using Plots
 
 plot(x,exacta)
 plot!(x[2:n-1],u)
-savefig("G.png")
+savefig("Gráfica.png")

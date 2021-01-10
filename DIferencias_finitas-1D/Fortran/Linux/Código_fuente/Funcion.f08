@@ -78,12 +78,13 @@ open(1,file="s.gp")
  write(1,*)'set term png'
  write(1,*)'set xlabel "x"'
  write(1,*)'set ylabel "y"'
- write(1,*)'set output "Gráfica.png"'
+ write(1,*)'set output "Resultado/Gráfica.png"'
  write(1,*)'plot "exacta.dat" w l lw 2, "aproximada.dat" w l lw 2'
  write(1,*)'exit'
 close(1)
 
 call system("gnuplot s.gp")
+call system("rm *.dat *.gp")
 
 endsubroutine
 
